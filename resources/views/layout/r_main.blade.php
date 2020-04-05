@@ -50,7 +50,7 @@
                 <nav class="classy-navbar justify-content-between" id="southNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand" href="customer_home"><h2 style="color:red">AB Property</h2></a>
+                    <a class="nav-brand" href="index.blade.php"><h2 style="color:red">AB Property</h2></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -68,22 +68,24 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li><a href="customer_home">Home</a></li>
-                                <li><a href="#">Pages</a>
+                                <li><a href="r_customer_home">Home</a></li>
+                                <li><a href="#">Profile</a>
                                     <ul class="dropdown">
-                                        <li><a href="customer_home">Home</a></li>
-                                        <li><a href="about-us.blade.php">About Us</a></li>
-                                       
-                                        <li><a href="contact.blade.php">Contact</a></li>
+                                        <li><a href="customer_about_me">About Me</a></li>
+                                        <li><a href="customer_edit_profile">Edit Profile</a></li>
+                                        <li><a href="customer_change_password">Change Password</a></li>
+                                        <li><a href="customer_delete_profile">Delete Profile</a></li>
                                        
                                     </ul>
                                 </li>
-                                <li><a href="about-us">About Us</a></li>
-                                <li><a href="listings.html">Properties</a></li>
+                               
+                                <li><a href="customer_all_property">All Properties</a></li>
                                 
-                                <li><a href="contact.blade.php">Contact</a></li>
-                                <li><a href="index.blade.php">Login</a></li>
-                                <li><a href="index.blade.php">Registration</a></li>
+                                <li><a href="/customer_contact">Contact</a></li>
+                                <li><a href="index.blade.php">Upload Property</a></li>
+                                <li><a href="index.blade.php">Edit Property</a></li>
+                                 <li><a href="index.blade.php">Delete Property</a></li>
+                                 <li><a href="index.blade.php">LogOut</a></li>
                             </ul>
                             
 
